@@ -31,11 +31,12 @@ impl Product {
 }
 
 #[derive(SimpleObject, Debug)]
+#[graphql(shareable)]
 pub struct ProductDimension<'a> {
-    // @shareable
     size: Option<&'a str>,
     weight: Option<f32>,
-    unit: Option<&'a str>, // @inaccessible
+    #[graphql(inaccessible)]
+    unit: Option<&'a str>,
 }
 
 #[derive(SimpleObject, Clone, Debug)]

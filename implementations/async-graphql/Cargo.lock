@@ -313,8 +313,7 @@ dependencies = [
 [[package]]
 name = "async-graphql"
 version = "4.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d614364b7f2fb247f0662d97c6fcbe25b62386f80deeebeeb52966afa3c195e"
+source = "git+https://github.com/async-graphql/async-graphql?branch=master#4877917145a08c891a9b851a1516c2d9f54c9cb6"
 dependencies = [
  "async-graphql-derive",
  "async-graphql-parser",
@@ -344,8 +343,7 @@ dependencies = [
 [[package]]
 name = "async-graphql-actix-web"
 version = "4.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a9cc6637a96f8837fa23ccb755c86cbf4823328e25a7ecb27c5dc16ad686d1b5"
+source = "git+https://github.com/async-graphql/async-graphql?branch=master#4877917145a08c891a9b851a1516c2d9f54c9cb6"
 dependencies = [
  "actix",
  "actix-http",
@@ -363,8 +361,7 @@ dependencies = [
 [[package]]
 name = "async-graphql-derive"
 version = "4.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "36dbf9913722cab705a285b3bd017bd50235d217012ec7015a0766fddfb4a45f"
+source = "git+https://github.com/async-graphql/async-graphql?branch=master#4877917145a08c891a9b851a1516c2d9f54c9cb6"
 dependencies = [
  "Inflector",
  "async-graphql-parser",
@@ -379,8 +376,7 @@ dependencies = [
 [[package]]
 name = "async-graphql-parser"
 version = "4.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "99441668eb63c7bb3585581d82ee2cfa1f5581713f15f63fcb46b10786c15250"
+source = "git+https://github.com/async-graphql/async-graphql?branch=master#4877917145a08c891a9b851a1516c2d9f54c9cb6"
 dependencies = [
  "async-graphql-value",
  "pest",
@@ -393,8 +389,7 @@ dependencies = [
 [[package]]
 name = "async-graphql-value"
 version = "4.0.9"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5637eedb74288c5b780ea6a2d0b1ef2e8b030c2d208143c39e06606136ef0f05"
+source = "git+https://github.com/async-graphql/async-graphql?branch=master#4877917145a08c891a9b851a1516c2d9f54c9cb6"
 dependencies = [
  "bytes",
  "indexmap",
