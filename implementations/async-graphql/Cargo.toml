@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4"
-async-graphql = { git = "https://github.com/async-graphql/async-graphql", branch = "master", features = ["apollo_tracing"] }
-async-graphql-actix-web = { git = "https://github.com/async-graphql/async-graphql", branch = "master" }
+async-graphql = { version = "4", features = ["apollo_tracing"] }
+async-graphql-actix-web = "4"
